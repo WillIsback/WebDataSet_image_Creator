@@ -1,0 +1,32 @@
+#list of image styles
+image_styles:
+  - Photo
+  - Anime
+  - Comics
+  - Sketch
+  - Watercolor
+  - Oil Painting
+  - Charcoal
+  - Pastel
+  - Digital Art
+  - Pixel Art
+  - Abstract
+  - Realism
+  - Surrealism
+  - Pop Art
+  - Minimalism
+  - Cubism
+  - Impressionism
+  - Expressionism
+  - Art Nouveau
+  - Art Deco
+  - Graffiti
+  - Collage
+  - Dada
+  - Futurism
+  - Conceptual Art
+
+#list of image labels
+labels_set_1: ['postapocalyptic', 'city', 'desolated']
+#labels_set_2: ['postapocalyptic', 'landscape', 'desolated']
+# Add more sets of labels as needed

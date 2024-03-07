@@ -1,0 +1,6 @@
+webdataset
+Pillow
+tarfile
+glob
+google-cloud-vision
+pyyaml

@@ -1,0 +1,15 @@
+webdatasetimagecreator-50c6b90b5d71.json
+# Python
+*.pyc
+*.pyo
+*.pyd
+*.so
+__pycache__/
+
+# Environments
+venv/
+*.env
+
+# Output files
+output.tar
+output_directory/
