@@ -60,7 +60,7 @@ def run_quickstart(image_path, use_vision_api=False, labels_set='labels_set_1', 
             filtered_labels = filter_labels(labels)
 
             # Add the labels from the labels_set to the filtered_labels
-            filtered_labels += configs[labels_set]
+            filtered_labels += [f'[{label}]' for label in configs[labels_set]]
             
             # Add the image style to the labels
             filtered_labels.insert(0, image_style)
@@ -70,7 +70,7 @@ def run_quickstart(image_path, use_vision_api=False, labels_set='labels_set_1', 
 
         else:
             # Use the specified set of labels
-            labels = configs[labels_set]
+            labels = [f'[{label}]' for label in configs[labels_set]]
 
             # Add the image style to the labels
             labels.insert(0, image_style)
